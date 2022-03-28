@@ -10,7 +10,7 @@ const path = require('path');
 
 app.get('/', async function(req, res) {
     
-    const links= ['https://bit.ly/3MDRrYe', 'https://bit.ly/Barutotel', 'https://bit.ly/kayaotel', 'https://bit.ly/rixosotel']
+    const links= ['https://www.anemonhotels.com/gorusleriniz.aspx', 'https://www.baruthotels.com/tr/iletisim', 'https://www.kayahotels.com/tr/sizi-arayalim', 'https://www.rixos.com/tr']
     const link = links[Math.floor(Math.random() * links.length)]
 
     let open = link
